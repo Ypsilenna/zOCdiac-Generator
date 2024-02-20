@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#86A8E7, #C9D6FF);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#86A8E7, #C9D6FF);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#86A8E7, #C9D6FF);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#86A8E7, #C9D6FF);
+  /* Standard syntax (must be last) */
+  margin: auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  
+}
+#content {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 50px 0;
+}
+
+#prediction {
+  background-color: #FFFFFF;
+}
+  
+  
+.berkshire-swash-regular {
+  font-family: "Berkshire Swash", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amatic-sc-regular {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amatic-sc-bold {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Berkshire Swash", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4em!important;
+  text-align: center;
+  }
+  
+h4 {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal; 
+  font-size: 30px!important;
+  text-align: center;
+  }
+  
+.alert {
+  --bs-alert-padding-x: 2rem!important;
+  --bs-alert-padding-y: 2rem!important;
+  }
+  
+.btn-dark {
+  float: right;
+    }
+    
+.mid{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+  
